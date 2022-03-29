@@ -1,0 +1,9 @@
+.TeamCard:hover {
+  background-color: gray !important;
+  color:white !important;
+  transition: all 0.2s ease-in-out;
+}
+
+.TeamCard {
+  transition: all 0.2s ease-in-out;
+}
