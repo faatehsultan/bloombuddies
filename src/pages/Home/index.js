@@ -25,16 +25,16 @@ export default function Home() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc gravida purus nisi. Integer ut neque placerat, pellentesque ex et, egestas purus. Donec eu dignissim nisl, eget viverra nisi. Sed posuere neque augue., nisi. Sed posuere neque augue.
           </div>
           <div className="row pt-5">
-            <div className="col-3 p-4">
+            <div className="col-6 col-md-3 p-4">
               <img src={img_sampleLogo} alt="" className='img-fluid' />
             </div>
-            <div className="col-3 p-4">
+            <div className="col-6 col-md-3 p-4">
               <img src={img_sampleLogo} alt="" className='img-fluid' />
             </div>
-            <div className="col-3 p-4">
+            <div className="col-6 col-md-3 p-4">
               <img src={img_sampleLogo} alt="" className='img-fluid' />
             </div>
-            <div className="col-3 p-4">
+            <div className="col-6 col-md-3 p-4">
               <img src={img_sampleLogo} alt="" className='img-fluid' />
             </div>
           </div>
@@ -47,12 +47,12 @@ export default function Home() {
         <div className="my-5 container">
           <h1 className="text-center fw-bolder">BLOOM PLAN</h1>
           <div className="row align-items-center mt-5">
-            <div className="col-8">
-              <div className="fs-5 fw-bold px-5">
+            <div className="col-12 col-md-8">
+              <div className="fs-5 fw-bold px-5 text-center text-md-start">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc gravida purus nisi. Integer ut neque placerat, pellentesque ex et, egestas purus. Donec eu dignissim nisl, eget viverra nisi. Sed posuere neque augue., nisi. Sed posuere neque augue.
               </div>
             </div>
-            <div className="col-4">
+            <div className="col-12 col-md-4 d-flex d-md-block justify-content-center pt-md-0 pt-5">
               <Btn>DISCORD</Btn>
             </div>
           </div>
@@ -82,7 +82,7 @@ export default function Home() {
             <br />
             <div className="row">
               {Array(4).fill(0).map((_, i) => (
-                <div className="col-6 d-flex justify-content-center align-items-center p-3">
+                <div className="col-12 col-md-6 d-flex justify-content-center align-items-center p-3">
                   <TeamCard />
                 </div>
               ))}
